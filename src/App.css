@@ -126,3 +126,27 @@ footer span {
 footer a {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  /* HEADER */
+  header {
+    justify-content: center;
+  }
+
+  /* MAIN */
+  .container {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding-top: 50px;
+    font-size: 14px;
+  }
+}
