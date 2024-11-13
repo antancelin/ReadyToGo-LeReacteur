@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 60px;
+  border-bottom: solid 1px lightgray;
+}
+
+header i {
+  color: #5c48d3;
+  font-size: 50px;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+/* MAIN */
+.container {
+  width: 700px;
+  margin: 200px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .final-button {
+  padding: 10px 0;
+  width: 200px;
+  font-size: 30px;
+}
+
+.final-button .go-button {
+  width: 100%;
+  height: 100%;
+  background-color: #46ac4a;
+  color: white;
+  border-radius: 5px;
+  border: #46ac4a solid 1px;
+  padding: 20px 0;
+}
+
+.final-button .no-button {
+  width: 100%;
+  height: 100%;
+  background-color: #d34848;
+  color: white;
+  border-radius: 5px;
+  border: #d34848 solid 1px;
+  padding: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.switch {
+  display: flex;
+  gap: 30px;
+}
+
+.switch-on,
+.switch-off {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.switch-on > button,
+.switch-off > button {
+  padding: 10px 0;
+  width: 100px;
+  border-radius: 5px;
+  border: solid 1px #5c48d3;
+}
+
+.switch-on > button:hover,
+.switch-off > button:hover {
+  cursor: pointer;
+}
+
+.full {
+  color: white;
+  background-color: #5c48d3;
+}
+
+.empty {
+  color: #5c48d3;
+  background-color: white;
+}
+
+.reset > button {
+  background-color: orange;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid orange;
+}
+
+.reset > button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: underline;
+}
